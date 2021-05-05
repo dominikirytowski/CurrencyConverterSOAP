@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:wps="http://www.opengis.net/wps/1.0.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="unqualified" targetNamespace="http://toolbox.pisa.intecs.it/soap/WPS/WPSsoap" version="0.1" xml:lang="en">
+	<annotation>
+		<appinfo>$Id: WPSSoapAll.xsd  $</appinfo>
+		<documentation>
+			<description/>
+			<copyright/>
+		</documentation>
+	</annotation>
+	<import namespace="http://www.opengis.net/wps/1.0.0" schemaLocation="http://toolbox.webservice-energy.org:80/TOOLBOX/WSDL/AIP3_PV_Impact/wps/1.0.0/wpsAll.xsd"/>
+	<include schemaLocation="http://toolbox.webservice-energy.org:80/TOOLBOX/WSDL/AIP3_PV_Impact/AIP3_PV_Impact/computeImpactPVMap2.xsd"/>
+	<include schemaLocation="http://toolbox.webservice-energy.org:80/TOOLBOX/WSDL/AIP3_PV_Impact/AIP3_PV_Impact/computeImpactPVMap.xsd"/>
+	<include schemaLocation="http://toolbox.webservice-energy.org:80/TOOLBOX/WSDL/AIP3_PV_Impact/AIP3_PV_Impact/computeImpactPV.xsd"/>
+</schema>
